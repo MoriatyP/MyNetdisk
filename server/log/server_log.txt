@@ -1,0 +1,132 @@
+Mon Apr 26 22:01:59 2021
+: start log
+Mon Apr 26 22:01:59 2021
+: mysql connected...
+Mon Apr 26 22:02:49 2021
+: connet with client ( 172.18.101.122:60576 )
+Mon Apr 26 22:02:53 2021
+: mysql> SELECT * FROM user WHERE user_name = 'wjm'
+Mon Apr 26 22:03:01 2021
+: mysql> SELECT * FROM files WHERE pre_id = 0 and user_id = 8 and filesize = 0
+Mon Apr 26 22:03:01 2021
+: From 13734: Mission R&L Completed
+Mon Apr 26 22:03:08 2021
+: mysql> SELECT * FROM files WHERE file_id = 32 and user_id = 8 and filesize = 0
+Mon Apr 26 22:05:25 2021
+: client close
+45:20 2021
+: From 5996: Mission U&D Completed
+Mon Apr 26 11:45:26 2021
+: mysql> SELECT * FROM files WHERE pre_id = 32
+Mon Apr 26 11:46:29 2021
+: mysql> SELECT * FROM files WHERE file_id = 32 and user_id = 8 and filesize = 0
+Mon Apr 26 11:46:48 2021
+: disconnect with client
+:48:01 2020
+: connet with client ( 172.17.199.186:43152 )
+Tue Feb 25 09:48:01 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:48:10 2020
+: client close
+Tue Feb 25 09:48:10 2020
+: From 14830: Mission R&L Completed
+Tue Feb 25 09:54:11 2020
+: connet with client ( 172.17.199.186:43228 )
+Tue Feb 25 09:54:20 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:54:22 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:54:23 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:54:23 2020
+: From 14829: Mission R&L Completed
+Tue Feb 25 09:54:43 2020
+: connet with client ( 172.17.199.186:43236 )
+Tue Feb 25 09:54:51 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:54:53 2020
+: mysql> SELECT * FROM files WHERE pre_id = 0 and user_id = 9 and filesize = 0
+Tue Feb 25 09:54:53 2020
+: From 14828: Mission R&L Completed
+Tue Feb 25 09:54:58 2020
+: disconnect with client
+Tue Feb 25 09:57:36 2020
+: connet with client ( 172.17.199.186:43268 )
+Tue Feb 25 09:57:40 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:57:42 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:57:43 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 09:57:43 2020
+: From 14832: Mission R&L Completed
+Tue Feb 25 09:58:00 2020
+: connet with client ( 172.17.199.186:43274 )
+Tue Feb 25 09:58:04 2020
+: client close
+Tue Feb 25 09:58:04 2020
+: From 14831: Mission R&L Completed
+Tue Feb 25 09:59:56 2020
+: connet with client ( 172.17.199.186:43298 )
+Tue Feb 25 09:59:59 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:00:01 2020
+: mysql> SELECT * FROM files WHERE pre_id = 0 and user_id = 9 and filesize = 0
+Tue Feb 25 10:00:01 2020
+: From 14830: Mission R&L Completed
+Tue Feb 25 10:00:05 2020
+: disconnect with client
+Tue Feb 25 10:04:24 2020
+: connet with client ( 172.17.199.186:43344 )
+Tue Feb 25 10:04:24 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:04:26 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:04:27 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:04:27 2020
+: From 14829: Mission R&L Completed
+Tue Feb 25 10:04:28 2020
+: connet with client ( 172.17.199.186:43346 )
+Tue Feb 25 10:04:28 2020
+: mysql> SELECT * FROM user WHERE user_name = '3'
+Tue Feb 25 10:04:28 2020
+: mysql> empty set
+Tue Feb 25 10:04:29 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:04:46 2020
+: mysql> SELECT * FROM files WHERE pre_id = 0 and user_id = 9 and filesize = 0
+Tue Feb 25 10:04:46 2020
+: From 14828: Mission R&L Completed
+Tue Feb 25 10:04:49 2020
+: client close
+Tue Feb 25 10:34:42 2020
+: connet with client ( 172.17.199.186:43684 )
+Tue Feb 25 10:34:42 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:34:45 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:34:47 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:34:47 2020
+: From 14832: Mission R&L Completed
+Tue Feb 25 10:47:49 2020
+: connet with client ( 172.17.199.186:43860 )
+Tue Feb 25 10:47:50 2020
+: mysql> SELECT * FROM user WHERE user_name = 'wjm'
+Tue Feb 25 10:47:53 2020
+: mysql> SELECT * FROM files WHERE pre_id = 0 and user_id = 8 and filesize = 0
+Tue Feb 25 10:47:53 2020
+: From 14831: Mission R&L Completed
+Tue Feb 25 10:48:15 2020
+: client close
+Tue Feb 25 10:52:36 2020
+: connet with client ( 172.17.199.186:43928 )
+Tue Feb 25 10:52:38 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:52:41 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:52:43 2020
+: mysql> SELECT * FROM user WHERE user_name = '23'
+Tue Feb 25 10:52:43 2020
+: From 14830: Mission R&L Completed
