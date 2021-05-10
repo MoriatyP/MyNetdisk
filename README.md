@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 # MyNetdisk
->>>>>>> 21e436c57a4ac65990ed0018daa9dfd275ddde8e
 ## 1 使用配置
 
 ​	在/server/config/中按要求修改server.conf和mysql.conf
@@ -26,18 +23,13 @@
 
 ​	通过./client IP port 方式启动客户端
 
-<<<<<<< HEAD
 ## 4 使用
 
 ​	跟随客户端引导界面使用即可
 
-=======
-## 4使用
-
-​	跟随客户端引导界面使用即可
 
 
 
 
 
->>>>>>> 21e436c57a4ac65990ed0018daa9dfd275ddde8e
+
