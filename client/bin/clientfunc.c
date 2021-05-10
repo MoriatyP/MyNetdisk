@@ -34,7 +34,7 @@ void start_window(){
     printf(":                    0.exit                                     :\n");
     printf(":                                                               :\n");
     printf(":***************************************************************:\n");
-    printf("Please input commend number:");
+    printf("Please input command number:");
     fflush(stdout);
 }
 
@@ -57,7 +57,7 @@ void mainpage_window(){
     printf(":                                                               :\n");
     printf(":                                                               :\n");
     printf(":***************************************************************:\n");
-    printf("Please input commend:");
+    printf("Please input command:");
     fflush(stdout);
 }
 
@@ -426,7 +426,7 @@ int do_gets(int socketfd, int dir_id, int user_id){
     close(logfd);
     num = 52;
     memset(symbuf, '#', num);
-    printf("[\033[1;32mloading\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
+    printf("[\033[1;32msuccess\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
     rename(tempfilename, filename); //将下载完成的临时文件命名为正式文件名
     remove(logname);                //删除log文件
     return 0;
@@ -551,7 +551,7 @@ int do_puts(int socketfd, int dir_id, int user_id)
         close(fd);
         num = 52;
         memset(symbuf, '#', num);
-        printf("[\033[1;32mloading\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
+        printf("[\033[1;32msuccess\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
         printf("%s\n", data.buf);
         return 0;
     }
@@ -585,7 +585,7 @@ int do_puts(int socketfd, int dir_id, int user_id)
     close(fd);
     num = 52;
     memset(symbuf, '#', num);
-    printf("[\033[1;32mloading\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
+    printf("[\033[1;32msuccess\033[0m \033[0;31m%-50s\033[0m 100.00%% \033[1;33m%c\033[0m ]\n", symbuf, sym[num % 4]);
     return 0;
 }
 
